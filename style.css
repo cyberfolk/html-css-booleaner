@@ -61,7 +61,7 @@ tr.d0 th {
     background-color: #B1E5F2;
 }
 
-#app-section2 > h2 {
+#app-section2 > h3 {
     color: #838383;
     margin-top: 2em;
 }
@@ -69,20 +69,24 @@ tr.d0 th {
 #app-section2 div {
     padding: 0.5em;
     color: white;
-    font-size: 1.8em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 #app-section2-img1 {
     background-image: url(./img/monitor.jpg);
-    width: 320px;
-    height: 208px;
+    width: 200px;
+    height: 130px;
+    background-size: contain;
+    margin-bottom: 0.5em;
 }
 
 #app-section2-img2 {
     background-image: url(./img/graph.jpg);
-    width: 320px;
-    height: 208px;
+    width: 200px;
+    height: 130px;
+    background-size: contain;
+
 }
 
 table {
