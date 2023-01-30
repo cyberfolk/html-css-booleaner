@@ -1,0 +1,14 @@
+* {
+    /* margin: 5; */
+    box-sizing: border-box;
+}
+
+#app-header {
+    background-image: url("./img/pattern.png");
+    background-size: contain;
+    background-color: rgb(78, 160, 255);
+}
+
+#app-header > img {
+    width: 150px;
+}
