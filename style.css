@@ -5,7 +5,7 @@
 
 #app-header {
     background-image: url("./img/pattern.png");
-    background-size: cover;
+    background-size: 250px;
     background-color: rgb(78, 160, 255);
     height: 4em;
 }
