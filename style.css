@@ -54,6 +54,7 @@ table > thead {
 th {
     font-weight: normal;
     text-align: left;
+    margin: 0;
 }
 
 tr.d0 th {
@@ -82,4 +83,8 @@ tr.d0 th {
     background-image: url(./img/graph.jpg);
     width: 320px;
     height: 208px;
+}
+
+table {
+    border-collapse: collapse;
 }
