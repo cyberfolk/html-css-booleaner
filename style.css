@@ -5,9 +5,16 @@
 
 #app-header {
     background-image: url("./img/pattern.png");
-    background-size: contain;
+    background-size: cover;
     background-color: rgb(78, 160, 255);
+    height: 4em;
 }
+
+#app-header > img {
+    margin-top: 1.4em;
+}
+
+
 
 #app-header > img {
     width: 150px;
@@ -47,12 +54,19 @@
     margin-bottom: 0;
 }
 
-th {
-    font-weight: normal;
+.underline {
+    background-color: #FFFF00;
 }
+
 
 table > thead {
     background-color: #20A9E5;
+    color: white;
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
 }
 
 tr.d0 th {
