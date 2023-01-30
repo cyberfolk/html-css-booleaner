@@ -24,3 +24,15 @@
     width: 320px;
     height: 208px;
 }
+
+th {
+    font-weight: normal;
+}
+
+table > thead {
+    background-color: #20A9E5;
+}
+
+tr.d0 th {
+    background-color: #B1E5F2;
+}
