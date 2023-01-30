@@ -14,8 +14,6 @@
     margin-top: 1.4em;
 }
 
-
-
 #app-header > img {
     width: 150px;
 }
@@ -36,16 +34,8 @@
     font-size: 0.6em;
 }
 
-#app-img1 {
-    background-image: url(./img/monitor.jpg);
-    width: 320px;
-    height: 208px;
-}
-
-#app-img2 {
-    background-image: url(./img/graph.jpg);
-    width: 320px;
-    height: 208px;
+.app-section1-img {
+    height: 300px;
 }
 
 .photo_legend {
@@ -83,4 +73,16 @@ tr.d0 th {
     color: white;
     font-size: 1.8em;
     font-weight: bold;
+}
+
+#app-section2-img1 {
+    background-image: url(./img/monitor.jpg);
+    width: 320px;
+    height: 208px;
+}
+
+#app-section2-img2 {
+    background-image: url(./img/graph.jpg);
+    width: 320px;
+    height: 208px;
 }
