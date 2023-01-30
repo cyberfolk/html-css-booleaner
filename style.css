@@ -13,6 +13,22 @@
     width: 150px;
 }
 
+#app-title {
+    margin-bottom: 0;
+}
+
+#app-author {
+    color: #808080;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#app-date {
+    color: #808080;
+    margin-top: 0;
+    font-size: 0.6em;
+}
+
 #app-img1 {
     background-image: url(./img/monitor.jpg);
     width: 320px;
@@ -25,6 +41,12 @@
     height: 208px;
 }
 
+.photo_legend {
+    font-size: 0.6em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 th {
     font-weight: normal;
 }
@@ -35,4 +57,16 @@ table > thead {
 
 tr.d0 th {
     background-color: #B1E5F2;
+}
+
+#app-section2 > h2 {
+    color: #838383;
+    margin-top: 2em;
+}
+
+#app-section2 div {
+    padding: 0.5em;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
 }
