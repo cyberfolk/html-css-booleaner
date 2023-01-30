@@ -12,3 +12,15 @@
 #app-header > img {
     width: 150px;
 }
+
+#app-img1 {
+    background-image: url(./img/monitor.jpg);
+    width: 320px;
+    height: 208px;
+}
+
+#app-img2 {
+    background-image: url(./img/graph.jpg);
+    width: 320px;
+    height: 208px;
+}
