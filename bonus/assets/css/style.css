@@ -126,12 +126,12 @@ th.spaced {
 }
 
 #app-footer #img1 {
-    background-image: url(./img/monitor.jpg);
+    background-image: url("../img/monitor.jpg");
     margin-bottom: 0.5em;
 }
 
 #app-footer #img2 {
-    background-image: url(./img/graph.jpg);
+    background-image: url("../img/graph.jpg");
 }
 
 table {
