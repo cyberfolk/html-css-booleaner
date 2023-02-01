@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+table {
+    border-spacing: 0;
+}
+
+th {
+    font-weight: normal;
+}
+
 /* body {
     font-family: ;
 } */
@@ -75,10 +87,6 @@
 
 /* #region Main */
 
-h1 {
-    font-size: 3rem;
-}
-
 .metadata {
     color: var(--bo-metadata);
 }
@@ -90,14 +98,6 @@ h1 {
 
 .underline {
     background-color: var(--bo-underline);
-}
-
-table {
-    border-spacing: 0;
-}
-
-th {
-    font-weight: normal;
 }
 
 /* #endregion Main */
