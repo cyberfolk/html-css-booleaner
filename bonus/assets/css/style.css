@@ -10,6 +10,7 @@
 } */
 
 :root {
+    --bo-header-bg: #4fa1ff;
     --bo-metadata: #808080;
     --bo-underline: #FFFF00;
     --bo-thead-bg: #20A9E5;
@@ -22,21 +23,22 @@
 /* #endregion Common */
 
 /* #region Utility Classes */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
 /* #endregion Utility Classes */
 
 /* #region Header */
 #app-header {
     background-image: url("../img/pattern.png");
-    background-size: 320px;
-    background-color: rgb(78, 160, 255);
-    height: 5em;
-    padding-left: 100px;
-
-}
-
-#app-header > img {
-    margin-top: 1.8em;
-    width: 170px;
+    background-size: 14%;
+    background-color: var(--bo-header-bg);
 }
 
 /* #endregion Header */
